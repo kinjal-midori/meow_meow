@@ -1,0 +1,67 @@
+/*NAVBAR*/
+.navbar{
+    flex-direction: column;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 9px;
+}
+.navbar ul li a{
+    padding: 0;
+}
+.logo img{
+    top: 0;
+    left: 0;
+}
+/*HOME*/
+.content{
+    width: 85%;
+}
+/*SERVICES*/
+.services {
+    flex-direction: column;
+    padding-bottom: 42px;
+}
+.box{
+    margin: 11px 20px;
+}
+.box img{
+    height: 100px;
+}
+
+/*CLIENTS*/
+.client_container{
+    flex-wrap: wrap;
+}
+.client img{
+    height: 68px;
+    padding: 0 1px;
+}
+
+/*CONTACT*/
+.contactbox form {
+    width: 74%;
+}
+
+.contactbox input, .contactbox textarea{
+    padding: .4rem;
+    font-size: 16px;
+}
+.contactbox label{
+    font-size: 20px;
+}
+.contact_item{
+    padding-top: 8px ;
+}
+
+/*footer*/
+footer .head_2{
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+
+/*UTILITY CLASSES*/
+.head_1{
+    font-size: 52px;
+}
